@@ -4,7 +4,13 @@
 
 .container {
     border: 4px solid lightgray;
-    padding: 24px;
+    padding: 24px 24px 0 24px;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .title {
@@ -16,11 +22,13 @@
 
 .box {
     border: 4px solid lightgrey;
-    width: calc(100% / 3);
+    width: 30%;
     height: 100px;
+    margin-bottom: 24px;
 }
 
 .box-wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
